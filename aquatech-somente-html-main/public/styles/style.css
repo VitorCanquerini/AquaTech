@@ -118,6 +118,7 @@ button{
 
 .footer{
     background-color: #00bcd4;
+    height: 65px;
 }
 
 .footer .container{
@@ -139,4 +140,53 @@ button{
     align-items: center;
     color: #e06782;
     font-weight: bold;    
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.banner .container {
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .container span {
+    color: white;
+    font-weight: bold;
+}
+.boxes{
+    background-color: #e5e5e4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    align-items: flex-end;
+}
+.box{
+    color: black;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+h4{
+    color: #ef015a;
+    margin-bottom: 5px;
+}
+
+img {
+    height: 100px;
+}
+
+.footer .container h4{
+    color: black;
 }
